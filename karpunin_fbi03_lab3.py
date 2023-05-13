@@ -75,7 +75,7 @@ con.close
 
 
 
-k = {"option": 1}
+k = {"option": 2}
 con.request("DELETE","/number/", json.dumps(k))
 a=con.getresponse()
 res=a.read().decode()
